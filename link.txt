@@ -1,0 +1,11 @@
+Git Hub
+Username: anuwankhede26
+email: anuwankhede2611@gmail.com
+pass: anu@26112001
+
+
+
+NETLIFY
+https://app.netlify.com/teams/anuwankhede26/overview
+https://movie-streaming-website.netlify.app/
+https://orderingfoodwebsite.netlify.app/
