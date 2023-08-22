@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+  
+<style>
+            .readmore {
+    
+     
+           text-align: center;
+            color: white;
+            background-color:dodgerblue ;
+            padding :10px 10px;
+            text-decoration: none;
+                border: none;
+           width:100px;
+            margin-left: 115px;
+                outline: none;
+}
+
+         .hotel-image{
+                padding:12px;
+                margin:1px;
+                }
+                .hotel-image-detail{
+                width:350px;
+                height:500px;
+                margin:30px 45px;              
+                box-shadow: 3px 3px 5px 6px #ccc;
+                transition: 0.2s;
+
+                }
+            .hotel-image-detail:hover{
+               transform: scale(1.09);
+            
+            }
+                .three
+                {
+                display: flex;
+                margin:10px 0px;
+                
+                }
+            a{
+                text-decoration: none;
+                color:black;
+                
+            }
+
+        .black-container{
+            background-color: black;
+            display: flex;
+           
+            padding:10px 10px;
+            
+        }
+        
+        .in{
+             padding:40px 70px;
+            
+        }
+        .black-container a{
+            text-decoration: none;
+             color:gainsboro;
+        }
+            .des {
+                font-style: italic;
+                font-size:20px;
+                color:dodgerblue;
+                text-align: center;
+                text-decoration: none;
+                justify-content: center;
+                padding:0 20px;
+            }
+			 #navbar {
+                overflow: hidden;
+                }
+
+                .dropdown {
+                float: right;
+                margin-top: 0;
+                overflow: hidden;
+                }
+
+                .dropdown .dropbtn {
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+                background:#f9f9f9;
+                overflow:hidden;
+                color: white;
+               
+                color:  #953fba;
+                text-align: center;
+                padding: 0 20px 4px 20px;
+                text-decoration: none ;
+                font-size:18px;
+                border:none;
+                }
+                .navbar a:hover, .dropdown:hover .dropbtn {
+                background-color: #ddd;
+                }
+
+                .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+                z-index: 1;
+                }
+
+                .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+                }
+
+                .dropdown-content a:hover {
+                background-color: #ddd;
+                }
+
+                .dropdown:hover .dropdown-content {
+                display: block;
+                }
+				#navbar {
+                overflow: hidden;
+                }
+
+                .dropdown {
+                float: right;
+                margin-top: 0;
+                overflow: hidden;
+                }
+
+                .dropdown .dropbtn {
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+                background:#f9f9f9;
+                overflow:hidden;
+                color: white;
+               
+                color:  #953fba;
+                text-align: center;
+                padding: 0 20px 4px 20px;
+                text-decoration: none ;
+                font-size:18px;
+                border:none;
+                }
+                .navbar a:hover, .dropdown:hover .dropbtn {
+                background-color: #ddd;
+                }
+
+                .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+                z-index: 1;
+                }
+
+                .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+                }
+
+                .dropdown-content a:hover {
+                background-color: #ddd;
+                }
+
+                .dropdown:hover .dropdown-content {
+                display: block;
+                }
+				.logo{
+        height: 80px;
+        width: auto;
+        /* float: left; */
+        margin-top: 15px;
+    }
+    
+				
+        </style>
+</head>
+<body>
+<!-- header section starts  -->
+
+<section class="header">
+
+        <img src="images/Logo.png" class="logo">
+
+        <nav class="navbar">
+           <a href="home1.php">Home</a> 
+            <a href="event1.php">Meetings & Events</a>
+            <div class="dropdown">
+            <button class="dropbtn">Booking form <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+            <a href="room.html">Rooms Booking </a>
+            <a href="bookings.php">Events Booking</a>
+            </div>
+            </div>
+         <a href="appointment.php#room">Booking History</a>
+         <a href="food1.php">Dining</a>
+		 <a href="service1.php">Service</a>
+		 <a href="about1.php">About Us</a>
+		 <a href="contactus1.php">Contact Us</a>
+      <a style id="logout" href="logout.php" ><i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp;logout</a>
+       <br> <p style=' float:right;
+     color: #9240c2;
+     
+    
+     font-size:18px;'><i class="fa fa-user-circle" aria-hidden="true"></i> </p>
+          
+     
+   </nav>
+
+   
+
+</section>
+
+
+<!-- header section ends -->
+
+        <?php
+        session_start();
+        $name = $_SESSION["username"]; 
+    $con=mysqli_connect('localhost','root','');
+    mysqli_select_db($con,'hotelmanagement');
+$type = array( 'club','classic','superior','family','presidential','bachelor','luxury','delux','superdelux');
+
+for ($x = 0; $x < sizeof($type) ; $x++) {
+ 
+
+$sel="select * from $type[$x]";
+   
+     $num =mysqli_query($con,$sel);
+
+    $count[$x] =0;
+    $total[$x] =0;
+  while($row=mysqli_fetch_assoc($num))
+{
+         $total[$x]=$total[$x]+1;
+      if ($row['Availability']==1)
+      { 
+          $count[$x]=$count[$x]+1;
+      }
+  }
+    
+    
+
+    
+}
+
+?>
+     
+       
+        
+     
+   
+        <div class="heading" style="background:url(images/bg1.jpg) no-repeat">
+   <h1>TAJ ROOMS DETAILS</h1>
+</div>
+
+<section class="packages">
+ <!-- -------------------------------------------------------------- -->
+   <h1 class="heading-title">TAJ ROOMS</h1>
+       <br>
+	   <br>
+	   <br>
+	   <br>
+      <div class="box-container">
+
+      <div class="box">
+         <div class="image">
+            <img src="images/b1.jpg" alt="">
+			<form method='POST' action="rbooking.php" >
+         </div>
+         <div class="content">
+            <h3>BACHELOR/SINGLE ROOM</h3>
+            <p>Facilities: Soap & bath amenities,Mini-bar, Telephone</p>
+			
+			<p>4000 Rs per night</p>
+            
+			<input class="btn" type='submit' name='bachelor' value='BOOK NOW'/>
+			 </form>
+         </div>
+      </div>
+	  <div class="box">
+         <div class="image">
+            <img src="images/b2.jpg" alt="">
+			<form method='POST' action="rbooking.php" >
+         </div>
+         <div class="content">
+            <h3>CLASSIC ROOM</h3>
+            <p>Facilities: Closet with hangers, HD flat-screen TV, Telephone</p>
+			
+			<p>Rs.5000 per night</p>
+            
+			<input class="btn" type='submit' name='classic' value='BOOK NOW'/>
+			 </form>
+         </div>
+      </div>
+	  <div class="box">
+         <div class="image">
+            <img src="images/b3.jpg" alt="">
+			<form method='POST' action="rbooking.php" >
+         </div>
+         <div class="content">
+            <h3>CLUB ROOM</h3>
+            <p>Facilities: Closet with hangers, 24 Hour room service,Computer and Internet access</p>
+			
+			<p>6000 Rs per night</p>
+            
+			<input class="btn" type='submit' name='club' value='BOOK NOW'/>
+			 </form>
+         </div>
+      </div>
+	  </div>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+	   <!-- -------------------------------------------------------------- -->
+	  <h1 class="heading-title">TAJ FAMILY ROOMS</h1>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	  <div class="box-container">
+	  <div class="box">
+         <div class="image">
+            <img src="images/f1.jpg" alt="">
+			<form method='POST' action="rbooking.php" >
+         </div>
+         <div class="content">
+            <h3>MINI FAMILY ROOM</h3>
+            <p>Facilities:32 Inch flat screen TV, Kitchen facilities,Towels,Dining tables</p>
+			
+			<p>Rs.5000 per night</p>
+            
+			<input class="btn" type='submit' name='family'  value='BOOK NOW'/>
+			 </form>
+         </div>
+      </div>
+	  <div class="box">
+         <div class="image">
+            <img src="images/ff2.jpg" alt="">
+			<form method='POST' action="rbooking.php" >
+         </div>
+         <div class="content">
+            <h3>FAMILY DELUXE ROOM</h3>
+            <p>Facilities: Closet with hangers, 24 Hour room service,Computer and Internet access,32 Inch flat screen TV, Kitchen facilities,Towels,Dining tables</p>
+			
+			<p>Rs.6000 per night</p>
+            
+			<input class="btn" type='submit' name='del' value='BOOK NOW'/>
+			 </form>
+         </div>
+      </div>
+	  <div class="box">
+         <div class="image">
+            <img src="images/ff3.png" alt="">
+			<form method='POST' action="rbooking.php" >
+         </div>
+         <div class="content">
+            <h3>FAMILY SUPERDELUXE ROOM</h3>
+            <p>Facilities: Closet with hangers, 24 Hour room service,Computer and Internet access</p>
+			
+			<p>Rs.7000 per night</p>
+            
+			<input class="btn" type='submit' name='super' value='BOOK NOW'/>
+			 </form>
+         </div>
+      </div>
+	  
+	   </div>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <!-- -------------------------------------------------------------- -->
+	  <h1 class="heading-title">TAJ SUITES ROOMS</h1>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	  <div class="box-container">
+	  <div class="box">
+         <div class="image">
+            <img src="https://www.rivieraolympia.com/assets/media/PICTURES/Riviera-Olympia-Complex/Olympia-Riviera-Hotel/Accommodation/Family-Accommodation/Superior-Family-Guestroom/Slider/01-olympia-riviera-superior-family-guestroom-sea-view-accommodation-peloponnese-25864.jpg" alt="">
+			<form method='POST' action="rbooking.php" >
+         </div>
+         <div class="content">
+            <h3>LUXURY SUITES</h3>
+            <p>Facilities: Closet with hangers, 24 Hour room service,Computer and Internet access,Mini-bar</p>
+			
+			<p>8000 Rs per night</p>
+            
+			<input class="btn" type='submit' name='luxury'' value='BOOK NOW'/>
+			 </form>
+         </div>
+      </div>
+	  <div class="box">
+         <div class="image">
+            <img src="data:image/jpeg;base64,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" alt="">
+			<form method='POST' action="rbooking.php" >
+         </div>
+         <div class="content">
+            <h3>SUPERIOR SUITES</h3>
+            <p>Facilities: Closet with hangers, 24 Hour room service,Computer and Internet access</p>
+			
+			<p>10000 Rs per night</p>
+            
+			<input class="btn" type='submit' name='club' value='BOOK NOW'/>
+			 </form>
+         </div>
+      </div><div class="box">
+         <div class="image">
+            <img src="images/s1.png" alt="">
+			<form method='POST' action="rbooking.php" >
+         </div>
+         <div class="content">
+            <h3>PRESIDENTIAL SUITES</h3>
+            <p>Facilities: Closet with hangers, HD flat-screen TV, Telephone,Mini-bar</p>
+			
+			<p>Rs.15000 per night</p>
+            
+			<input class="btn" type='submit' name='club' value='BOOK NOW'/>
+			 </form>
+         </div>
+      </div>
+	  </div>
+      </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+   
+
+        <!-- footer section starts  -->
+
+        <section class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="home.html"> <i class="fas fa-angle-right"></i> home</a>
+                    <a href="about.html"> <i class="fas fa-angle-right"></i> about</a>
+                    <a href="room.html"> <i class="fas fa-angle-right"></i> rooms</a>
+                    <a href="event.php"> <i class="fas fa-angle-right"></i> events</a>
+                </div>
+
+                <div class="box">
+                    <h3>extra links</h3>
+                    <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+                    <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
+                    <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
+                    <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
+                </div>
+
+                <div class="box">
+                    <h3>contact info</h3>
+                    <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                    <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                    <a href="#"> <i class="fas fa-envelope"></i> Tajhotel@gmail.com </a>
+                    <a href="#"> <i class="fas fa-map"></i> Goa, india - 400104 </a>
+                </div>
+
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                    <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                    <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                    <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                </div>
+
+            </div>
+
+            <div class="credit"> Anushree Wankhede </div>
+
+        </section>
+
+        <!-- footer section ends -->
+
+
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

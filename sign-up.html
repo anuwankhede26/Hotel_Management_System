@@ -1,0 +1,418 @@
+<htm<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+ <style>
+      .boxs {
+            width: 430px;
+            height: 580px;
+            position: relative;
+            margin: 6% auto;
+            background: white;
+            box-shadow: 0 0 10px #2d545e;
+            padding: 5px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        .box-buttons {
+            width: 220px;
+            margin: 35px auto;
+            position: relative;
+            box-shadow: 0 0 10px #2d545e;
+            border-radius: 30px;
+        }
+        
+        .btns {
+            position: relative;
+            background: transparent;
+            border: 0;
+            padding: 10px 30px;
+            cursor: pointer;
+            outline: none;
+            color: black;
+        }
+        
+        #btnss {
+            position: absolute;
+            width: 110px;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border-radius: 30px;
+            background: linear-gradient(to right, #2d545e, skyblue);
+            transition: .5s;
+        }
+        
+        .social-icons {
+            margin: 20px auto;
+            text-align: center;
+        }
+        
+        .social-icons img {
+            margin: 10px 10px;
+            width: 30px;
+            border-radius: 60%;
+            cursor: pointer;
+            box-shadow: 0 0 20px 0 skyblue;
+        }
+        
+        .sign-form {
+            width: 280px;
+            top: 180px;
+            position: absolute;
+            transition: .5s;
+        }
+        
+        .input-field {
+            padding: 10px 0;
+            margin: 5px 0;
+            width 100%;
+            border-bottom: 1px solid #999;
+            border-top: 1px solid #999;
+            border-right: 1px solid #999;
+            border-left: 1px solid #999;
+            background: transparent;
+            outline: none;
+        }
+        
+        .class-btn {
+            padding: 10px 30px;
+            width: 80%;
+            margin: auto;
+            display: block;
+            outline: none;
+            border: 0;
+            background: linear-gradient(to right, #2d545e, skyblue);
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        
+        .check-box {
+            margin: 30px 10px 30px 0px;
+        }
+        
+        span {
+            color: #777;
+            font-size: 12px;
+            bottom: 62px;
+         
+        }
+        
+        #login {
+            left: 50px;
+        }
+        
+        #registration {
+            left: 450px;
+        }
+        
+        .box a {
+            color: red;
+            font-size: 13px;
+        }
+        
+        .fa {
+            cursor: pointer;
+            left=-30px;
+            top=50px;
+        }
+        
+        #eye.active {
+            color: blue;
+        }
+		
+.icon {
+  padding: 10px;
+  background: black;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+        .logo{
+             height: 80px;
+             width: auto;
+            /* float: left; */
+             margin-top: 15px;
+                  }
+    #navbar {
+                overflow: hidden;
+                }
+
+                .dropdown {
+                float: right;
+                margin-top: 0;
+                overflow: hidden;
+                }
+
+                .dropdown .dropbtn {
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+                background:#f9f9f9;
+                overflow:hidden;
+                color: white;
+               
+                color:  #953fba;
+                text-align: center;
+                padding: 0 20px 4px 20px;
+                text-decoration: none ;
+                font-size:18px;
+                border:none;
+                }
+                .navbar a:hover, .dropdown:hover .dropbtn {
+                background-color: #ddd;
+                }
+
+                .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+                z-index: 1;
+                }
+
+                .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+                }
+
+                .dropdown-content a:hover {
+                background-color: #ddd;
+                }
+
+                .dropdown:hover .dropdown-content {
+                display: block;
+                }
+    </style>
+
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<section class="header">
+
+        <img src="images/Logo.png" class="logo">
+
+         <nav class="navbar">
+            <a href="home.html">Home</a>
+			<a href="room.html">Rooms</a> 
+            <a href="event.php">Meetings & Events</a> 
+            <a href="login.html">Login</a>
+            <a href="sign-up.html">Sign Up</a>
+			<a href="food.html">Dining</a>
+            <a href="service.html">Service</a>
+            <a href="about.html">About Us</a>
+            <a href="contactus.html">Contact Us</a>
+			<div class="dropdown">
+            <button class="dropbtn">Booking form <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+            <a href="rbooking.php">Rooms Booking </a>
+            <a href="booking.html">Events Booking</a>
+            </div>
+            </div>
+        </nav>
+
+   
+
+</section>
+<div class="heading" style="background:url(images/bg3.jpg) no-repeat">
+   <h1>Welcome To Sign Up</h1>
+</div>
+
+<br><br><br><br><br><br>
+<h1 class="heading-title">Do Registration For Booking </h1>
+<section class="about">
+
+   <div class="image">
+      <img src="images/na.jpg" alt="">
+   </div>
+
+   <div class="content">
+
+    <div class='boxs' id='len'>
+        
+        
+         <h2>User SignUp </h2>   
+        <button class="btn" onclick="register()">sign up</button>
+        <button class="btn" onclick="login()">login</button>
+      
+        
+         <div class='social-icons'>
+        
+            <img src='images/fb.png'>
+            <img src='images/gp.png'>
+            <img src='images/inst.jpg'>
+                
+        </div>
+         <form id='registration' name='form1' class="sign-form" method='post' action='registration.php' onsubmit="return fill()">
+                    
+					<i class="fa fa-user icon"></i>
+					<input type='text' name='username' class='input-field' placeholder="User Name" required>
+					
+					<br><i class="fa fa-key icon"></i>
+                    <input type='password' name="password" id='pwds' class='input-field' placeholder="Password" required><i id='eyes' class="fa fa-eye-slash" aria-hidden="true" onclick='toggle()'></i>
+                     <br><i class="fa fa-key icon"></i>
+					<input type='password' name="cpassword" id='cpwds' class='input-field' placeholder="Confirm Password" required>
+                    
+					<br><i class="fa fa-envelope icon"></i>
+					<input type='email' name='email' class='input-field' placeholder="Email id" required>
+					
+					<br><i class="fa fa-phone-square icon" ></i>
+                    <input type='number' name="number" class='input-field' placeholder="Mobile Number" required><br>
+					
+					<br>
+                    <a href='javascript:login()'>Already have an account?</a><br>
+                    <input type='checkbox' class='check-box' checked='checked'>
+                    <span>I am agree to the terms and conditions</span>
+                    <br><button type='submit' class='btn'>Register</button>
+                </form>
+		
+        <form id='login' class="sign-form" method='post' action='validation.php'>
+				    <i class="fa fa-user icon"></i>
+                    <input type='text' name='username' class='input-field' placeholder="User Name" required>
+                    
+					 <br><i class="fa fa-key icon"></i>
+					<input type='password' name="password" id='pwd' class='input-field' placeholder="Password" required><i  id='eye' class="fa fa-eye-slash" aria-hidden="true" onclick='toggle()'></i><br>
+                    <input type='checkbox' class='check-box' checked='checked'>
+                    <span>Remember password</span><br>
+                    <button type='submit' class='btn'>Login</button>
+					<br><br><br><br><a href='sign-up.html'>Don't have an account?</a>
+					
+					
+                </form>
+        
+    
+        </div>
+       
+    </div>
+	
+	</section>
+
+        <!-- footer section starts  -->
+
+        <section class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="home.html"> <i class="fas fa-angle-right"></i> home</a>
+                    <a href="about.html"> <i class="fas fa-angle-right"></i> about</a>
+                    <a href="room.html"> <i class="fas fa-angle-right"></i> rooms</a>
+                    <a href="event.php"> <i class="fas fa-angle-right"></i> events</a>
+                </div>
+
+                <div class="box">
+                    <h3>extra links</h3>
+                    <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+                    <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
+                    <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
+                    <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
+                </div>
+
+                <div class="box">
+                    <h3>contact info</h3>
+                    <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                    <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                    <a href="#"> <i class="fas fa-envelope"></i> Tajhotel@gmail.com </a>
+                    <a href="#"> <i class="fas fa-map"></i> Goa, india - 400104 </a>
+                </div>
+
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                    <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                    <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                    <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                </div>
+
+            </div>
+
+            <div class="credit"> created by Anushree Wankhede and Ayush Ghutke </div>
+
+        </section>
+
+        <!-- footer section ends -->
+    <script>
+    
+        var x=document.getElementById("login");
+         var y=document.getElementById("registration");
+         var z=document.getElementById("btns");
+         var len=document.getElementById("len");
+       
+        function register()
+        {
+            x.style.left= "450px";
+            y.style.left="50px";
+            z.style.left="0px";
+             len.style.height='580px';
+            
+        } 
+        
+         function login()
+        {
+            x.style.left= "50px";
+            y.style.left="-400px";
+            z.style.left="110px";
+            len.style.height='450px';
+            
+        } 
+        
+        function fill(){
+             var password=document.form1.password;
+       var cpassword=document.form1.cpassword;
+           if(password.value!=cpassword.value){
+            alert("password is mismatching.... please re-enter your password ");
+            return false;
+        }
+            return true;
+        }
+      
+        //eye icon
+        var state= flase;
+        function toggle()
+        {
+
+            if(state){
+
+                document.getElementById("pwd").setAttribute("type","password");
+                document.getElementById("pwds").setAttribute("type","password");
+                document.getElementById("eye").setAttribute("class","fa fa-eye-slash");
+                document.getElementById("eyes").setAttribute("class","fa fa-eye-slash");
+                state=false;
+            }
+            else{
+                 document.getElementById("pwd").setAttribute("type","text");
+                 document.getElementById("pwds").setAttribute("type","text");
+                 document.getElementById("eye").setAttribute("class","fa fa-eye");
+                 document.getElementById("eyes").setAttribute("class","fa fa-eye");
+                
+                state=true;
+            }
+        }
+        
+    </script>
+        
+    
+    </body>
+</html>
